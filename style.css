@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+/* Header */
+.header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  margin: 0 10px;
+}
+.nav__logo {
+  width: 100px;
+}
+.nav__links {
+  display: flex;
+}
+.nav__item {
+  padding: 5px 10px;
+}
