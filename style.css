@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&family=Oxygen&family=Raleway:wght@400;600;700;800;900&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.1px;
+  line-height: 1.2;
 }
 
 ul {
@@ -11,7 +19,7 @@ ul {
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 .container {
@@ -46,17 +54,18 @@ a {
 }
 
 .header__content {
+  display: flex;
+  align-items: center;
   height: 90vh;
 }
-.header__content .container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .header__content h1 {
+  font-size: 4rem;
   margin-bottom: 2rem;
 }
-.header__content h4 {
+.header__content h1 span {
+  font-weight: 900;
+}
+.header__content p {
+  font-size: 1.25rem;
   margin-bottom: 2rem;
 }
