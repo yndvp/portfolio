@@ -156,7 +156,6 @@ h3 {
   padding: 8px 10px;
   background: #f39c12;
   border: 2px solid #f39c12;
-  border-radius: 5px;
   cursor: pointer;
 }
 .works__btns button:hover {
@@ -164,4 +163,54 @@ h3 {
   border: 2px solid #f39c12;
 
   color: #000;
+}
+
+/* Section 3 */
+#section--3 {
+  color: #bdc3c7;
+  background: #000;
+}
+#section--3 .section__header {
+  color: #ecf0f1;
+}
+.contact {
+  display: flex;
+}
+.contact__info,
+.contact__form {
+  width: 50%;
+}
+.contact__info > div {
+  margin-bottom: 30px;
+}
+.contact__info h5 {
+  color: #ecf0f1;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.contact__form {
+  display: inline-block;
+}
+.contact__form input,
+.contact__form textarea {
+  color: #000;
+  font-size: 1rem;
+  width: 450px;
+  border: 2px solid #ecf0f1;
+  border-radius: 5px;
+  background: #000;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #bdc3c7;
+  font-size: 1rem;
+  font-family: 'Lora', serif;
+}
+.contact__form input:focus,
+.contact__form textarea:focus {
+  background: #ecf0f1;
+}
+.contact__form input {
+  height: 2rem;
+  margin-bottom: 15px;
 }
