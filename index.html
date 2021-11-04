@@ -83,8 +83,8 @@
         </div>
         <div class="works">
           <div class="works__work">
-            <img src="" alt="" class="works__image" />
-            <h5 class="works__title">Title</h5>
+            <img src="img/project-1.png" alt="project 1" class="works__image" />
+            <h5 class="works__title">Online Book Store</h5>
             <p class="works__description">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Accusantium dolor rem exercitationem nisi odio consectetur atque,
@@ -105,8 +105,8 @@
             </div>
           </div>
           <div class="works__work">
-            <img src="" alt="" class="works__image" />
-            <h5 class="works__title">Title</h5>
+            <img src="img/project-2.png" alt="project 2" class="works__image" />
+            <h5 class="works__title">Online Education Platform</h5>
             <p class="works__description">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Accusantium dolor rem exercitationem nisi odio consectetur atque,
@@ -115,12 +115,12 @@
             </p>
             <div class="works__btns">
               <a
-                href="https://yndvp.github.io/book-shop-website/"
+                href="https://yndvp.github.io/online-education-website/"
                 class="btn--work"
                 >Live</a
               >
               <a
-                href="https://github.com/yndvp/book-shop-website"
+                href="https://github.com/yndvp/online-education-website"
                 class="btn--work"
                 >Source Code</a
               >
@@ -191,9 +191,13 @@
               <p>avery.yunna.jang@gmail.com</p>
             </div>
           </div>
-          <form action="" class="contact__form">
-            <input type="text" name="name" placeholder="Name" />
-            <input type="text" name="email" placeholder="Email" />
+          <form
+            action="https://formsubmit.co/avery.yunna.jang@gmail.com"
+            method="POST"
+            class="contact__form"
+          >
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="text" name="email" placeholder="Email" required />
             <input type="text" name="subject" placeholder="Subject" />
             <textarea
               name="message"
@@ -201,7 +205,9 @@
               rows="10"
               placeholder="Message"
             ></textarea>
-            <button>Send</button>
+            <div class="btn-container">
+              <button class="btn--submit">Send</button>
+            </div>
           </form>
         </div>
       </div>
@@ -210,13 +216,20 @@
     <footer class="footer">
       <ul class="footer__nav">
         <li>
-          <a href="#"><i class="fab fa-github-square"></i></a>
+          <a href="https://github.com/yndvp"
+            ><i class="fab fa-github-square"></i
+          ></a>
         </li>
         <li>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a
+            href="https://www.linkedin.com/in/yunna-jang-5a77511b7/?locale=en_US"
+            ><i class="fab fa-linkedin"></i
+          ></a>
         </li>
         <li>
-          <a href="#"><i class="fas fa-envelope-square"></i></a>
+          <a href="mailto:avery.yunna.jang@gmail.com"
+            ><i class="fas fa-envelope-square"></i
+          ></a>
         </li>
       </ul>
       <p class="footer__copyright">&copy; Copyright by Yunna Jang</p>
