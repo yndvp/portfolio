@@ -185,6 +185,9 @@ h3 {
   border-radius: 5px;
   transition: all 0.3s;
 }
+.btn--work.only {
+  width: 100%;
+}
 .btn--work:hover {
   background: #ffffff;
   border: 2px solid #f39c12;
@@ -336,6 +339,9 @@ textarea::placeholder {
     margin-bottom: 8px;
   }
 
+  .container {
+    max-width: 80%;
+  }
   .p-120 {
     padding: 80px 0;
   }
